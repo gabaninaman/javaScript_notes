@@ -1,0 +1,1 @@
+HTML enables creating UI ( User Interfaces ) in a declarative way.  We have learnt Iterative constructs in the last session. We also have explored html content generation. I would be interesting to see how you can use this newly gained skill of working with loops to generate interesting UI using HTML. If required you can use Arrays for storing data.
