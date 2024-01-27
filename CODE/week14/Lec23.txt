@@ -1,0 +1,67 @@
+the web page has(is made of)
+
+contet- text images, viedeo, animation(multi-media)-the language is english
+structure- html
+style-css
+behaviour-javaScript     
+
+these are the 4 aspects of the web page and every aspect has its own language
+
+when you take a typical html document(containing some tags)
+this html is on the server and when the browser requests the page the page is loaded on the browser
+now each tags are converted in javaScript objects. 
+this forms a tree, and after processing the html page is converted into Document Object Model(DOM)
+
+
+When you say Head is a tag-->> more specific it is called tag entity
+
+when you talk about p or paragraph tag-->> more specific it is called tag element
+
+typical for for paragraph
+<p>
+blaaaaaaaaaaaaah
+</p>
+
+shortcut for paragrpah tag
+<p x="10" y="20" />
+
+XML- Extensible Markup language
+Html has a fixed number of tags but, XML has more than html
+
+XML is a technology which allows you to make your own markup language  
+the personalized language which we make with XML is called xml applications
+XML application-language you designed with xml
+
+Smilimarly,
+SGML application- language you designed with the help of sgml
+
+when two application you designed are interacting with each other(eg- using hyperlink)
+the protocol used for communcation can also be designed with xml and sgml
+
+So, HTML is an SGML application
+
+
+
+
+XHTML- is an XML apllication and is near to your original html. 
+this is more flexible than html.
+
+The DOMParser interface provides the ability to parse XML or HTML source code from a string into a DOM Document 
+
+Parser- converts web page into DOM
+
+Things to remember
+
+Understanding the page abstraction
+browser is the page renderer
+server is a papge provider
+
+then the four aspects of the page
+content
+structure
+style
+behaviour 
+
+
+then the notion of the connection of the pages(www), aslo who gives us this notion(http applcations- browsers, servers, http protocol running on internet)
+

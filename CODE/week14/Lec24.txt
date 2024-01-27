@@ -1,0 +1,62 @@
+libraries- jquery
+
+frameworks- react(have its own developer model), angular. you can design your own tags
+
+
+parent, child, ancestors, descentants, siblings are the most common terms used in trees
+
+
+when you think of a dog and its many names(eg-tom)
+
+so dog is a class(is a common noun)
+and tom is the an instance of the class.(is a proper noun)
+
+same way is with a file and a folders
+
+
+what is composit pattern? (This is at the heart of reccursive system)
+The dual relation of file and a folders. 
+The principle is-folder can have file and folder is a file
+this allows unlimited nesting. 
+this allows the folder to have a sub-folders
+
+
+
+
+
+
+
+
+you interacts with the software through user interface
+interface can be-
+CUI-command user interface
+GUI-Graphical user interface
+SUI-Sound user interface
+
+Programatic Interface- Interface used for the interaction of two programs or software
+depends on where the two software are locaated
+
+
+when you want to develop GUI you need to understand these things-
+1.container
+2.component
+3.layout
+4.event
+5.eventhandler
+
+
+
+
+
+
+
+
+HTML
+
+
+When you are working with html
+to further divide some styling for some tags in html we use class(not related to calss of oop)
+
+suppose we have a style a div tage
+but in the body of document we need to further divide some styling amound the div tags
+we then use class

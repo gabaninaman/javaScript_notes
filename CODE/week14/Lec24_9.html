@@ -1,0 +1,24 @@
+<!-- select -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>
+       Fruit Dropdown
+   </title>
+</head>
+
+<body>
+   <label for="fruitDropdown">Select a fruit:</label>
+   <select id="fruitDropdown"></select>
+   <script>
+       let fruits = ["Apple", "Orange", "Grapes", "Bannana", "Mango"];
+
+       for (let i = 0; i < fruits.length; i++) {
+           let option = document.createElement("option");
+           option.innerHTML = fruits[i];
+           document.getElementById("fruitDropdown").appendChild(option);
+       }
+   </script>
+</body>
+
+</html>

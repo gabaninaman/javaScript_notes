@@ -1,0 +1,23 @@
+ol
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+
+</head>
+<body>
+   <ol id="ol">
+       <script>
+
+           let i = 0;
+           while (i < 5) {
+               let li = document.createElement("li");
+               li.innerHTML = "Hello " + i;
+               document.getElementById("ol").appendChild(li);
+               i++;
+           }
+
+       </script>
+   </ol>
+</body>
+</html>
